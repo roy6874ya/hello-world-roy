@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel="stylesheet">
+    
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/style_Final.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+	<link rel="shortcut icon" href="images/icon/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/icon/apple-touch-icon-57-precomposed.png">
+    
+<title>Guitar World</title>
+</head>
+
+<body>
+<!--第一層-選單開始-->
+
+<div id="g-wrap" class="nav-is-fixed">
+    
+<header id="header">
+    <div class="row">
+        <nav class="navbar navbar-default navbar-fixed-top menu header" role="navigation">
+    <div class="container " >
+      <!-- 移動顯示 -->
+        <div class="cd-main-header">
+           <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo"/></a>
+            <ul class="cd-header-buttons">
+               <li>
+                 <a href="#cd-primary-nav" title="Menu" id="nav-icon" class="cd-nav-trigger">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 <span></span>
+                 </a>
+               </li>
+             </ul>
+        </div>
+        
+      <!--按鈕內容 -->
+<nav class="cd-nav clearfix">
+    <ul id="cd-primary-nav" class="cd-primary-nav is-fixed ulset">
+      <li class="hide-1025"><a href="index.html" title="HOME" data-hover="首頁" class="button" style="display:none;">HOME</a></li>
+        
+      <!-- 當前頁面加上 li 加上 current -->
+      <li class="has-children">
+        <!-- 當前頁面加上 a 加上 current -->
+        <a href="about.html" title="ABOUT" data-hover="ABOUT US" class=" button"><span>關於我們</span></a>
+        
+      </li>
+      <li class="has-children">
+        <a href="news.html" title="NEWS" data-hover="NEWS" class="button"><span>最新消息</span></a>
+        <div class="is-hidden" style="display:none;">
+          <ul class="cd-secondary-nav ulset">
+            <li><a href="news.html" title="最新訊息">最新訊息</a></li>
+            <li><a href="news.html" title="活動訊息">活動訊息</a></li>
+
+          </ul>
+        </div>
+      </li>
+      <li><a href="goods_list.html" title="PRODUCTS" data-hover="PRODUCTS" class="button"><span>吉他產品</span></a>
+         <div class="is-hidden">
+          <ul class="cd-secondary-nav ulset">
+            <li><a href="about.html" title="吉普森">GIBSON LES PAUL </a></li>
+            <li><a href="store.html" title="FENDER">FENDER AMERICAN</a></li>
+            <li><a href="brand.html" title="IBANEZ">IBANEZ</a></li>
+            <li><a href="designer.html" title="PRS CUSTOM">PRS CUSTOM</a></li>
+          </ul>
+        </div>
+        </li>
+      <li><a href="fitting.html" title="ARTICLE" data-hover="TECH" class="button"><span>製琴技術</span></a></li>
+      <li><a href="member_login.html" title="MEMBER" data-hover="CONTACT" class="button"><span>聯絡我們</span></a></li>
+        
+      <li class="follow">
+        <div class="item">
+          Follow Us
+        </div>
+        <ul class="group ulset">
+          <li ><a href="http://www.yahoo.com.tw" target="_blank" title="facebook"><span class="fa fa-facebook"></span>facebook</a></li>
+          <li  style="display:none;"><a href="#" target="_blank" title="twitter"><span class="fa fa-twitter"></span>Twitter</a></li>
+          <li  style="display:none;"><a href="#" target="_blank" title="youtube"><span class="fa fa-youtube-play"></span>Youtube</a></li>
+          <li  style="display:none;"><a href="#" target="_blank" title="pinterest"><span class="fa fa-pinterest-p"></span>Pinterest</a></li>
+            
+        </ul>
+      </li>
+    </ul>
+</nav>
+            </div>
+</header>
+        <!--
+<main id="about" class="cd-main-content">&nbsp;</main> -->
+<!--第一層-選單結束-->
+<!--第二層-廣告輪播開始-->
+    <div class="banner cd-main-content" id="about" >
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- 指標 -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- 幻燈片 -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/slide1.jpg" class="img-responsive">
+          <div class="carousel-caption"></div>
+        </div>
+        <div class="item">
+          <img src="images/slide2.jpg" class="img-responsive">
+          <div class="carousel-caption"></div>
+        </div>
+          <div class="item">
+          <img src="images/slide3.jpg" class="img-responsive">
+          <div class="carousel-caption"></div>
+        </div>
+      </div>
+      <!-- 左右切換控制 -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    </div>
+<!--第二層-廣告輪播結束-->
+<!--第三層-最新消息與廣告開始-->
+    <div class="container news">
+    <div class="row">
+    <div class="col-md-8 col-sm-8">
+    <img src="images/aboutus.png" class="coursesTitle"/>
+     <p>
+     在過去的20幾年中，我老是拿PRS與美廠的Gibson比較，就做工、用料、以及品質管制上，PRS的確是優於Gibson。因為先入為主的觀念，我完全都不去注意Gibson，從而錯失認識Gibson Custom Shop琴的機會。一想到買set neck、arch top的琴時，我只會往PRS裡找。從1989/90年的第一把Custom 24 10 Top、McCarty、Custom 22、到現在的DGT，我陷入了一個迷思：試圖在PRS中找到Les Paul的音色。
+        </p>
+         <p>
+         每把PRS都是很好的琴，而我個人偏愛McCarty與DGT；然而PRS就是PRS，它不是也不會是Gibson的替代品。經過了這麼多年，我總算了解到這一點（或許應該說我總算願意承認與接受這一點）；只是同時，我也發現我心底那個潛藏很久的渴望越來越強烈：追求出現在Gary Moore、Allman Brothers、ZZ Top等，那由Gibson Les Paul產生的厚實甜美的音色。
+     </p>
+    </div>
+    <div class="col-md-4 col-sm-4"><img src="images/ad.jpg" class="img-responsive"></div>
+        
+        </div>
+    </div>
+<!--第三層-最新消息與廣告結束-->
+<!--第四層-課程分享開始-->
+<section class="sec_top">
+    <div class="container">
+        <img src="images/portfolio.png" class="coursesPort">
+        
+       <div class="row">
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>GIBSON SG</h1>
+             <figure><img src="images/CourseImg1.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>FENDER TELECASTER</h1>
+               <figure><img src="images/CourseImg2.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>GIBSON LES PAUL</h1>
+               <figure><img src="images/CourseImg3.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>GIBSON LES PAUL</h1>
+               <figure><img src="images/CourseImg4.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+        </div>
+        <!-- row02 -->
+        <div class="row">
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>Grass Roots custom</h1>
+             <figure><img src="images/CourseImg5.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>PRS custom</h1>
+               <figure><img src="images/CourseImg6.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>IBANEZ </h1>
+               <figure><img src="images/CourseImg7.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>GIBSON ES335</h1>
+               <figure><img src="images/CourseImg8.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+        </div>
+         <!-- row03 -->
+        <div class="row">
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>FENDER BASS</h1>
+             <figure><img src="images/CourseImg9.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>IBANEZ BASS</h1>
+               <figure><img src="images/CourseImg10.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>SX BASS custom</h1>
+               <figure><img src="images/CourseImg11.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+           <div class="col-md-3 col-xs-12 hover01">
+               <h1>Fender BASS custom</h1>
+               <figure><img src="images/CourseImg12.jpg" class="img-responsive courseImg img-circle"/></figure>
+           </div>
+        </div>
+        
+    <div class="row pagi_btn">
+            <ul class="pagination">
+	            <li><a href="#">&laquo;</a></li>
+	            <li><a href="#">1</a></li>
+	            <li><a href="#">2</a></li>
+	            <li><a href="#">3</a></li>
+	            <li><a href="#">4</a></li>
+	            <li><a href="#">5</a></li>
+	            <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
+  </section>
+<!--第四層-課程分享結束-->
+<!--第五層-連結內容開始-->
+    <div ></div>
+<!--第五層-連結內容結束-->
+<!--第六層-頁腳分享開始-->
+<div class="container-fluid footer">
+<div class="row">
+<ol class="breadcrumb">
+	<li><a href="#">關於GUITAR WORLD</a></li>
+	<li><a href="#">吉他店鋪</a></li>
+	<li><a href="#">技術分享</a></li>
+    <li><a href="#">聯絡我們</a></li>
+</ol>
+    <p>
+        台灣台中市南屯區大墩四街321號</br>
+   E-mail:ginway0325@gmail.com 24H國際熱線：0063-915 778 8899 </br>
+Copyright © GUITAR WORLD Reserved
+</p>
+
+</div>
+</div>
+<!--第六層-頁腳分享結束-->
+
+</body>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<script src="js/main.js"></script>
+</html>

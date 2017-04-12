@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@media screen and (min-width:1200px) {
+	.contact-info{
+	 padding:0 0 20px 0;
+	 margin-left:20px;
+	}
+    .news-list{
+        margin:25px 0 0 0;
+    }
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.contact-info{
+	 padding:0 0 20px 0;
+	 margin-left:20px;
+	}
+    .news-list{
+        margin:25px 0 0 0;
+    }
+}
+@media (min-width:767px) and (max-width:991px) {
+	.contact-info{
+	 padding:0 0 20px 0;
+	 margin-left:20px;
+
+	}
+figure{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    }
+}
+@media screen and (max-width:768px) {
+.contact-info{
+	 padding:0 0 20px 0;
+	 margin-left:20px;
+	}  
+
+    .menubtn{
+        margin-top:30px;
+    }
+figure{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    }
+}
+figure_new{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    }
+}
+@media screen and (max-width: 640px) {
+.CoursesShare .span{
+	text-align: center;
+	}    
+figure{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    }
+
+}
+figure_new{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    }
+}
